@@ -7,17 +7,19 @@ import Derel from "../../assets/Derel.svg"
 const Single = () => {
   const [t,i18n]  = useTranslation();
   return (
-    <div className='h-[700px] '>
-<img className='w-[1100px] my-[100px]' src = {grop2} alt="" />
-<div className='m-w-[1100px] my-[100px] mx-[170px]'>
-    <h1 className=' text-[#3A0CA3] text-[42px] font-bold '>{t("s1")}</h1><br /><br /><br />
-    <p className='text-[#424242] text-[24px] w-[1100px] '>{t("s2")}</p><br /><br />
-<p className='text-[#424242] text-[24px] w-[1100px] '>
-{t("s3")}</p><br /><br />
-<p className='text-[#424242] text-[24px] w-[1100px] '>
-{t("s3")}</p>
+    <div className='flex justify-center '>
+      <div>
+        <div className='flex justify-center'> <img className='w-[1100px] my-[100px]' src = {grop2} alt="" /></div>
+           <div className='m-w-[1100px] my-[100px] mx-[170px]'>
+           <h1 className=' text-[#3A0CA3] text-[42px] font-bold '>{t("s1")}</h1><br /><br /><br />
+           <p className='text-[#424242] text-[24px] w-[1100px] '>{t("s2")}</p><br /><br />
+           <p className='text-[#424242] text-[24px] w-[1100px] '>
+           {t("s3")}</p><br /><br />
+           <p className='text-[#424242] text-[24px] w-[1100px] '>
+           {t("s3")}</p>
 </div>
-<div className='w-[1100px]'>
+<div className='flex justify-center '>
+<div className='w-[1100px] '>
 <h2 className=' text-[#3A0CA3] text-[36px] font-bold '>{t("s4")}</h2>
 <br /><br /><br />
 <p className='text-[#424242] text-[24px] w-[1100px] '>{t("s2")}</p><br /><br />
@@ -27,7 +29,9 @@ const Single = () => {
 {t("s3")}</p>
 
 </div>
-<div className='w-[1100px] my-[100px]'>
+</div>
+<div className='flex justify-center'>
+<div className='w-[1100px] my-[100px] '>
 <h2 className=' text-[#3A0CA3] text-[24px] font-bold '>{t("s5")}</h2>
 <br /><br /><br />
 <p className='text-[#424242] text-[24px] w-[1100px] '>{t("s2")}</p><br /><br />
@@ -38,8 +42,14 @@ const Single = () => {
 
 </div>
 
-<img className='w-[450px] my-[200px] p-[30px] ' src={Derel} alt="" />
 
+</div>
+<div className='flex justify-center'><img className='w-[450px] my-[200px] p-[30px]  ' src={Derel} alt="" /> </div>
+
+
+
+      </div>
+          
     </div>
   )
 }

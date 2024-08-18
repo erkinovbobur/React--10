@@ -12,7 +12,8 @@ import HireMe from "../../assets/HireMe.svg"
  }
   return (
    <>
-   <div className='flex justify-center  p-[50px] justify-between '>
+   <div className=' '>
+   <div className='flex   p-[50px] justify-between '>
     <div className='flex gap-2 items-center'>
    <div><img src={Logo1} alt="" /></div> 
    <div><img src={HireMe} alt="" /></div>         
@@ -38,6 +39,8 @@ import HireMe from "../../assets/HireMe.svg"
 
    </div>
 
+   </div>
+   
  
    </>
   )

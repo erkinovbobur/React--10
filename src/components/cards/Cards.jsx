@@ -51,7 +51,7 @@ import Derel from "../../assets/Derel.svg"
   
   
 </div>
-<div className='flex gap-[100px] p-[50px] my-[190px]'>
+<div className='flex gap-[100px] p-[50px] my-[250px]'>
 <div class="w-[700px] h-[400px] relative card">
     <img src={grop2} alt="" class="w-full h-full object-cover rounded-lg" />
     <br />
