@@ -1,3 +1,8 @@
+import { ImLinkedin2 } from "react-icons/im"; 
+import { AiOutlineLinkedin } from "react-icons/ai"; 
+import { BsMedium } from "react-icons/bs"; 
+import { AiFillLinkedin } from "react-icons/ai"; 
+import { AiOutlineTwitter } from "react-icons/ai"; 
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Button } from 'antd';
@@ -19,11 +24,16 @@ import twitter from "../../assets/twitter.svg"
 <h2 className='text-[53px] font-bold text-[#D05270]'>{t("h1")}</h2>
 <h3 className='p-1 text-[52px] '>{t("h2")}</h3>
 <p className='w-[400px] p-1 text-left'>{t("h3")}</p>
-<div>
-<Button  src={twitter}  type="primary">
-          dsdasd
+<div className="flex gap-5 p-2">
+<Button className="bg-[#47ACDF]" icon={<AiOutlineTwitter />}  type="primary">
+TWITTER
         </Button>
-       
+<Button className="bg-[#1275B1] "  icon={<ImLinkedin2 />}  type="primary">
+         LINKEDIN
+        </Button>
+<Button className="bg-[black]"  icon={<BsMedium />}  type="primary">
+         MEDIUM
+        </Button>
      
 </div>
 </div>
